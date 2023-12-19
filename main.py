@@ -10,10 +10,10 @@ from utils import db, lm
 from models import User, Voluntario
 
 # CONTROLLERS
-from controllers.user import bp_user
-from controllers.voluntario import bp_volut
-from controllers.ong import bp_ong
-from controllers.acao import bp_acao
+from user import bp_user
+from voluntario import bp_volut
+from ong import bp_ong
+from acao import bp_acao
 
 # CONFIGS
 app = Flask(__name__)
